@@ -1,0 +1,37 @@
+<body>
+   <form [formGroup]="formRegister" (ngSubmit)="onSubmit()" class="contenedor rounded-4"> 
+
+    <h1>Register</h1>
+    <section class="pb-3">
+    <div class="example-container">
+      <mat-form-field appearance="fill"  class="example-full-width">
+        <mat-label>Enter your email</mat-label>
+        <input matInput placeholder="nbanda@gmail.com" formControlName="email" required>
+        <mat-error *ngIf="this.formRegister.controls['email'].invalid">{{getErrorMessage()}}</mat-error>
+      </mat-form-field>
+    </div></section>
+
+
+
+    <div class="example-container rounded">
+      <mat-form-field appearance="fill"  class="example-full-width">
+        <mat-label>Enter your password</mat-label>
+        <input matInput [type]="hide ? 'password' : 'text'" formControlName="password" required>
+        <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+          <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+        </button>
+        <mat-error *ngIf="this.formRegister.controls['password'].invalid">{{Messagepassword()}}</mat-error>
+
+      </mat-form-field>
+    
+    </div>
+
+    <button mat-raised-button 
+    color="primary" class="mt-4" (click)="onSubmit()">Registrarse</button>
+
+    <div class="text-center mt-4">
+      <h4 class="rounded-3">¿Tienes una cuenta? <a id="inicio" routerLink = "/login" >Inicia Sesión</a></h4>
+    </div>
+
+   </form>
+</body>

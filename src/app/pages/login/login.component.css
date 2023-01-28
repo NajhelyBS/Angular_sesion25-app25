@@ -1,0 +1,70 @@
+body {
+    border: solid 3px red;
+    background-image: url(https://cutewallpaper.org/28x/km24t935n/143207485.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+
+h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #3B3F5C;
+
+}
+form {
+    border:  inset 4px #4758B8;
+    padding: 1.4em;
+    background-color: #0c214044;
+
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    margin:6rem auto;
+    max-width: 600px;
+}    
+
+mat-label {
+    font-weight: 800;
+    
+}
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+
+  mat-error {
+    font-size: 15px;
+    background-color: #f371608f;
+    border-radius: 20px;
+    -webkit-text-stroke-width: 0.003px;
+    -webkit-text-stroke-color: #e74934c0;
+    color: #0c2140d8;
+    font-weight: 800;
+}
+
+h4 {
+    font-weight: bold;
+    color: #0c2140;
+    text-shadow: 0px 0px 3px white;
+    background-color: #f3e8c06b;
+    margin-left: 8em;
+    margin-right: 8em;
+}
+
+#inicio{
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: #477c82a8;
+    text-shadow: 0px 0px 3px white;
+    color:#F56F63;
+    cursor: pointer;
+    text-decoration: underline #F56F63  0.3px;
+}

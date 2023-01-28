@@ -1,0 +1,12 @@
+<body>
+    <app-header></app-header>
+
+
+    <div>
+        <button [routerLink]="['lista']" routerLinkActive="item" >Lista de Productos</button>
+        <button [routerLink]="['añadir']" routerLinkActive="item" >Regstro de Productos</button>
+
+    </div>
+    <router-outlet></router-outlet>
+
+</body>

@@ -81,18 +81,11 @@ export class RegisterComponent implements OnInit{
       this.router.navigate(['/login']);
   
     })
+
     .catch(error =>  {
 
       console.log(error);
-  
-      //alert registro exitoso
-      Swal.fire({
-        icon: 'error',
-        title: 'Error',
-        text: 'Datos faltantes o incorrectos',
-      })
-  
-  
+    
     })
    
   }

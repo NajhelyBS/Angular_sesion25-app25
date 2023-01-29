@@ -1,0 +1,49 @@
+
+form {
+    border:  inset 4px #098BAD;
+    padding: 1.4em;
+    background-color: #0c214044;
+
+
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    margin:2rem auto;
+    max-width: 450px;
+}
+
+h1 {
+    font-weight: 850;
+    -webkit-text-stroke-color: #856584;
+    -webkit-text-stroke-width: 0.6px;
+    color: #098BAD;
+    text-shadow: 0px 0px 3px white;
+
+}
+
+
+mat-label {
+    font-weight: 800;
+    
+}
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+
+button {
+    font-size: 17px;
+    background: #12c2e9ab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f64f5a96, #c471ed9a, #12c2e99a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f64f5a9a, #c471eda9, #12c2e998); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+

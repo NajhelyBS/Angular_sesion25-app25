@@ -13,12 +13,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 var config = {
-  apiKey: "AIzaSyBje6QNhObuyBUJjZ09nBsB3leD9Hv91KU",
-  authDomain: "angular-framework-faed9.firebaseapp.com",
-  projectId: "angular-framework-faed9",
-  storageBucket: "angular-framework-faed9.appspot.com",
-  messagingSenderId: "748052870514",
-  appId: "1:748052870514:web:9e991c8f0552a0163699eb"
+  apiKey: "AIzaSyDgIs8RdfLcCgFIG0EwxVvU9bx9wwjYZSs",
+  authDomain: "angular-firebasecrud-2ba49.firebaseapp.com",
+  projectId: "angular-firebasecrud-2ba49",
+  storageBucket: "angular-firebasecrud-2ba49.appspot.com",
+  messagingSenderId: "793004336044",
+  appId: "1:793004336044:web:cab8198ec6f7b1f37f9009"
 }
 
 
@@ -31,7 +31,7 @@ var config = {
     AppRoutingModule,
     PagesModule,
     provideFirebaseApp(() => initializeApp(environment.firebase)), 
-    provideAuth(() => getAuth()), 
+    provideAuth(() => getAuth()), provideFirestore(() => getFirestore()),
     BrowserAnimationsModule,
   ],
   providers: [],

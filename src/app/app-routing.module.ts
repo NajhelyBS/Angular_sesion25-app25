@@ -10,10 +10,9 @@ const routes: Routes = [
   {path:"", component:RegisterComponent},
   {path:"login", component:LoginComponent},
   {path:"home", component:HomeComponent,
-  children:[
-    {path:"lista", component:ListaproductosComponent},
+  children: [
     {path:"añadir", component:RegistrarproductoComponent},
- 
+    {path:"lista", component:ListaproductosComponent}
   ]},
   
 ];

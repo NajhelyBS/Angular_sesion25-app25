@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "angular-firebasecrud-2ba49": {
+      "hosting": {
+        "app-25": [
+          "angular-firebasecrud-2ba49"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angular-firebasecrud-2ba49"
+  }
+}

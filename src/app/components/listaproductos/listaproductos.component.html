@@ -1,1 +1,32 @@
-<p>listaproductos works!</p>
+
+
+<!--pagination-
+    <pagination-controls (pageChange)="page_actual = $event"></pagination-controls></div>
+       --->
+
+       <div class="container mb-5 contenedor">
+        <table class="rounded">
+          <thead>
+              <tr class=" border">
+                  <th class="text-center py-3" id="title">Producto</th>
+                  <th class="text-center py-3" id="title">Costo</th>
+                  <th class="text-center py-3" id="title">Imagen</th>
+                  <th class="text-center py-3" id="title">Eliminar</th>
+      
+              </tr>
+          </thead>
+          <tbody>
+              <tr  *ngFor="let prod of farmacia">
+                  <th class="border px-4 py-3" id="sub">{{ prod.producto }}</th>
+                  <th class="border px-4 py-3" id="sub">{{ prod.costo | currency : 'S/.' }}</th>
+                  <th class="border px-4 py-3" id="sub">
+                    <img src="{{prod.imagen}}" width="150" height="100">                  
+                  </th>
+                  <th class="border px-4 py-3" id="sub">
+                    <button mat-raised-button color="warn" class="form-control" (click)="onClickDelete(prod)">Eliminar</button>
+                  </th>
+                </tr>
+          </tbody>
+      </table>
+      </div>
+

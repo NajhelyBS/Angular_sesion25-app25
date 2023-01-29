@@ -1,0 +1,17 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    margin:2rem auto;
+    max-width: 600px;
+}  
+
+#title {
+    background: #12c2e9ab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f64f5a96, #c471ed9a, #12c2e99a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f64f5a9a, #c471eda9, #12c2e998); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+#sub {
+    background-color: #fbe37b8e;
+}

@@ -19,7 +19,7 @@ export class UserService {
     return signInWithEmailAndPassword(this.auth, email, password);
   }
 
-  //salir
+  //cerrar sesión
   logout(){
     return signOut(this.auth);
   }

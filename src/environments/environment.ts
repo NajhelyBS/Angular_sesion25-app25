@@ -1,10 +1,10 @@
 export const environment = {
   firebase: {
-    apiKey: "AIzaSyBje6QNhObuyBUJjZ09nBsB3leD9Hv91KU",
-    authDomain: "angular-framework-faed9.firebaseapp.com",
-    projectId: "angular-framework-faed9",
-    storageBucket: "angular-framework-faed9.appspot.com",
-    messagingSenderId: "748052870514",
-    appId: "1:748052870514:web:9e991c8f0552a0163699eb"
+    projectId: 'angular-firebasecrud-2ba49',
+    appId: '1:793004336044:web:cab8198ec6f7b1f37f9009',
+    storageBucket: 'angular-firebasecrud-2ba49.appspot.com',
+    apiKey: 'AIzaSyDgIs8RdfLcCgFIG0EwxVvU9bx9wwjYZSs',
+    authDomain: 'angular-firebasecrud-2ba49.firebaseapp.com',
+    messagingSenderId: '793004336044',
   }
 }

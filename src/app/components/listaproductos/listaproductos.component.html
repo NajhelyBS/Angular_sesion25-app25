@@ -1,8 +1,7 @@
 
-
-<!--pagination-
-    <pagination-controls (pageChange)="page_actual = $event"></pagination-controls></div>
-       --->
+<div class="contenedor text-center">
+    <pagination-controls (pageChange)="page_actual = $event"></pagination-controls>
+</div>
 
        <div class="container mb-5 contenedor">
         <table class="rounded">
@@ -16,7 +15,7 @@
               </tr>
           </thead>
           <tbody>
-              <tr  *ngFor="let prod of farmacia">
+              <tr  *ngFor="let prod of farmacia | paginate: { itemsPerPage: 3, currentPage:page_actual }">
                   <th class="border px-4 py-3" id="sub">{{ prod.producto }}</th>
                   <th class="border px-4 py-3" id="sub">{{ prod.costo | currency : 'S/.' }}</th>
                   <th class="border px-4 py-3" id="sub">

@@ -1,7 +1,7 @@
 .contenedor {
     display: flex;
     flex-direction: column;
-    margin:2rem auto;
+    margin:1rem auto;
     max-width: 600px;
 }  
 
@@ -9,9 +9,24 @@
     background: #12c2e9ab;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #f64f5a96, #c471ed9a, #12c2e99a);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #f64f5a9a, #c471eda9, #12c2e998); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+    color:#0A141D;
+    text-shadow: 0px 0px 4px #25A1B7;
 }
 
 #sub {
     background-color: #fbe37b8e;
 }
+
+img {
+    border: inset #7E516E 3px;
+}
+
+pagination-controls {
+    background-color: #78607d9a;
+    height: 2em;
+    margin-left: 8em;
+    margin-right: 6em;
+    color:Red;
+
+}
+

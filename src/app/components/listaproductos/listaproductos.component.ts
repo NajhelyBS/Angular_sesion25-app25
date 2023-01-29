@@ -11,6 +11,7 @@ import Swal from 'sweetalert2';
 })
 export class ListaproductosComponent  implements OnInit{
 
+  page_actual = 1;
   farmacia!:Farmacia[];
 
   constructor( private farmaciaservice:FarmaciaService){
